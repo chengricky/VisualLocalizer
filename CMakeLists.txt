@@ -7,3 +7,4 @@ project ("VisualLocalizer")
 
 # 包含子项目。
 add_subdirectory ("VisualLocalizer")
+

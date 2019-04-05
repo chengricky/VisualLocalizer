@@ -1,0 +1,15 @@
+%YAML:1.0
+---
+PathRec: "E:\\PreciseLocalization\\Dataset\\VLdataset_MultiModal\\T3-T3\\database-google\\"
+PathTest: "E:\\PreciseLocalization\\Dataset\\VLdataset_MultiModal\\T3-T3\\query-google\\"
+#PathRec: "E:\\PreciseLocalization\\Dataset\\VLdataset_MultiModal\\T3-Lib\\database-google\\"
+#PathTest: "E:\\PreciseLocalization\\Dataset\\VLdataset_MultiModal\\T3-Lib\\query-google\\"
+# read feature instead of images
+#the number of sequence
+Sequence: 1
+#back-end structure: NetworkFlow/BruteForce(feature)/Ordinary
+Topology: NetworkFlow
+# if NetworkFlow, choose distance: cos distance or hamming (default) distance 
+DistanceType: cos
+# the cost of hidden nodes
+CostHidden: 1.8
